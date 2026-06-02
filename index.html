@@ -44,7 +44,7 @@
   --fd:'Cairo','Segoe UI','Tahoma',Arial,sans-serif;--fb:'Cairo','Segoe UI','Tahoma',Arial,sans-serif;
   --r:8px;--rl:12px;
 }
-html{font-size:15px}
+html{font-size:16px}
 body{background:var(--bg);color:var(--txt);font-family:var(--fb);line-height:1.6}
 body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   background-image:linear-gradient(rgba(10,142,125,.03) 1px,transparent 1px),
@@ -59,7 +59,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .hbrand{display:flex;align-items:center;gap:11px}
 .hlogo{height:46px;width:46px;object-fit:contain;flex-shrink:0;
   filter:drop-shadow(0 0 8px rgba(180,132,42,.4))}
-.hname{font-family:var(--fd);font-size:14px;font-weight:700;color:#fff;line-height:1.25}
+.hname{font-family:var(--fd);font-size:15px;font-weight:700;color:#fff;line-height:1.25}
 .hsub{font-size:10px;color:var(--teal3);margin-top:1px;letter-spacing:.05em}
 .hmeta{display:flex;align-items:center;gap:9px;flex-shrink:0}
 .hsrc{font-size:10px;color:var(--txt2);line-height:1.6;text-align:left}
@@ -75,7 +75,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   display:flex;align-items:stretch;padding:0 .4rem;
   overflow-x:auto;scrollbar-width:none;white-space:nowrap}
 .nav::-webkit-scrollbar{display:none}
-.nbtn{font-family:var(--fd);font-size:11.5px;font-weight:600;color:var(--txt3);
+.nbtn{font-family:var(--fd);font-size:13px;font-weight:600;color:var(--txt3);
   padding:0 12px;height:46px;border:none;background:transparent;cursor:pointer;
   border-bottom:2px solid transparent;display:inline-flex;align-items:center;gap:4px;
   transition:color .18s,border-color .18s}
@@ -89,15 +89,15 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .hero{background:var(--surf);border:1px solid var(--b1);border-radius:var(--rl);
   padding:1rem 1.4rem;margin-bottom:1.4rem;
   display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
-.hero-ar{font-family:var(--fd);font-size:16px;font-weight:900;color:#fff}
-.hero-en{font-size:10.5px;color:var(--txt2);margin-top:2px;letter-spacing:.05em}
+.hero-ar{font-family:var(--fd);font-size:18px;font-weight:900;color:#fff}
+.hero-en{font-size:12px;color:var(--txt2);margin-top:3px;letter-spacing:.05em}
 .hero-tag{font-family:var(--fd);font-size:10.5px;font-weight:700;
   padding:4px 13px;border-radius:99px;
   background:rgba(180,132,42,.12);border:1px solid rgba(180,132,42,.28);
   color:var(--gold2);white-space:nowrap}
 
 /* SECTION LABEL */
-.sl{font-size:9.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+.sl{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
   color:var(--teal2);margin:1.4rem 0 .75rem;
   display:flex;align-items:center;gap:7px}
 .sl::after{content:'';flex:1;height:1px;background:var(--b1)}
@@ -111,9 +111,9 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   transition:transform .16s,border-color .16s}
 .kcard:hover{transform:translateY(-2px);border-color:var(--b2)}
 .kbar{position:absolute;bottom:0;left:0;right:0;height:3px}
-.knum{font-family:var(--fd);font-size:22px;font-weight:900;color:#fff;line-height:1;margin-bottom:4px;margin-top:6px}
-.klbl{font-size:11px;color:var(--txt2);font-weight:500}
-.ksub{font-size:9.5px;color:var(--txt3);margin-top:2px}
+.knum{font-family:var(--fd);font-size:26px;font-weight:900;color:#fff;line-height:1;margin-bottom:5px;margin-top:7px}
+.klbl{font-size:13px;color:var(--txt2);font-weight:600}
+.ksub{font-size:11px;color:var(--txt3);margin-top:3px}
 
 /* CONTENT GRIDS */
 .g2{display:grid;grid-template-columns:1fr 1fr;gap:11px}
@@ -127,17 +127,17 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 /* CARD */
 .card{background:var(--card);border:1px solid var(--b1);border-radius:var(--rl);
   padding:1.05rem 1.15rem;position:relative;overflow:hidden}
-.ct{font-family:var(--fd);font-size:13px;font-weight:700;color:var(--txt);
+.ct{font-family:var(--fd);font-size:14.5px;font-weight:700;color:var(--txt);
   margin-bottom:.75rem;display:flex;align-items:center;gap:6px}
 .cdot{width:5px;height:5px;border-radius:50%;flex-shrink:0;display:inline-block}
 
 /* STAT ROWS */
 .stbl{display:flex;flex-direction:column}
 .sr{display:flex;align-items:baseline;justify-content:space-between;
-  padding:6px 0;border-bottom:1px solid var(--b1)}
+  padding:5px 2px;border-bottom:1px solid var(--b1)}
 .sr:last-child{border-bottom:none}
-.sk{font-size:12px;color:var(--txt2);flex:1;padding-left:6px}
-.sv{font-size:12.5px;font-weight:700;color:var(--txt);font-family:var(--fd);
+.sk{font-size:13.5px;color:var(--txt2);flex:1;padding-left:6px}
+.sv{font-size:14px;font-weight:700;color:var(--txt);font-family:var(--fd);
   text-align:right;white-space:nowrap;flex-shrink:0}
 
 /* PROGRESS */
@@ -172,15 +172,15 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   padding:.6rem .8rem;border-right:3px solid var(--gold2)}
 .cnum{font-family:var(--fd);font-size:12.5px;font-weight:900;color:var(--gold2);
   flex-shrink:0;min-width:18px;line-height:1.5}
-.ctxt{font-size:12.5px;color:var(--txt);line-height:1.55}
+.ctxt{font-size:14px;color:var(--txt);line-height:1.6}
 
 /* PROJECT ITEMS */
 .pjlist{display:flex;flex-direction:column;gap:6px}
 .pjitem{display:flex;align-items:center;gap:8px;
   background:rgba(255,255,255,.03);border-radius:var(--r);
   padding:.55rem .8rem;border:1px solid var(--b1)}
-.pjn{font-size:12px;color:var(--txt);flex:1;line-height:1.4}
-.pjc{font-size:12px;font-weight:700;color:var(--gold2);white-space:nowrap;font-family:var(--fd)}
+.pjn{font-size:13.5px;color:var(--txt);flex:1;line-height:1.45}
+.pjc{font-size:13.5px;font-weight:700;color:var(--gold2);white-space:nowrap;font-family:var(--fd)}
 .pjok{font-size:9.5px;padding:2px 7px;border-radius:99px;
   background:rgba(26,96,56,.2);color:var(--grn3);white-space:nowrap}
 
@@ -241,6 +241,48 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 .ptype.sea{background:rgba(10,142,125,.15);color:var(--teal2)}
 .ptype.land{background:rgba(180,132,42,.15);color:var(--gold2)}
 .ptype.fish{background:rgba(29,127,216,.15);color:var(--sky2)}
+
+/* ── TOOLTIP ── */
+.sr{position:relative;cursor:default;transition:background .15s}
+.sr:hover{background:rgba(255,255,255,.04);border-radius:5px;padding-right:6px;padding-left:6px}
+.sr .tip{
+  display:none;position:absolute;left:50%;transform:translateX(-50%);
+  bottom:calc(100% + 6px);
+  background:#1A3450;border:1px solid var(--gold2);color:var(--txt);
+  font-size:12px;padding:5px 10px;border-radius:6px;
+  white-space:nowrap;z-index:999;pointer-events:none;
+  box-shadow:0 4px 16px rgba(0,0,0,.4);
+}
+.sr:hover .tip{display:block}
+
+/* ── EXPAND/COLLAPSE ── */
+.card.expandable .ct{cursor:pointer;user-select:none}
+.card.expandable .ct::after{
+  content:'▲';font-size:10px;margin-right:auto;padding-right:8px;
+  color:var(--teal2);transition:transform .25s;display:inline-block;
+  margin-left:6px;
+}
+.card.expandable.collapsed .ct::after{transform:rotate(180deg)}
+.card.expandable .card-body{
+  overflow:hidden;max-height:1000px;transition:max-height .3s ease;
+}
+.card.expandable.collapsed .card-body{max-height:0}
+
+/* ── COUNTER ANIMATION ── */
+.knum[data-target]{opacity:0;transition:opacity .3s}
+.knum[data-target].counted{opacity:1}
+
+/* ── PROJECT DIVIDER ── */
+.pjitem{border-bottom:1px solid var(--b1) !important;margin-bottom:2px;padding-bottom:10px !important}
+.pjitem:last-child{border-bottom:none !important;margin-bottom:0}
+
+/* ── HOVER on KPI cards ── */
+.kcard{cursor:default}
+.kcard:hover .knum{color:var(--gold3);transition:color .2s}
+
+/* ── NAV hover bg ── */
+.nbtn:hover{background:rgba(255,255,255,.04);border-radius:4px}
+
 </style>
 </head>
 <body>
@@ -278,7 +320,8 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 
 <div class="sl">اهم مؤشرات المحافظة</div>
 <div class="kgrid">
-<div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#0A8E7D,#10B8A2)"></div><div class="knum">121,261</div><div class="klbl">اجمالي السكان</div><div class="ksub">تقدير 1/7/2025</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#1358A8,#1D7FD8)"></div><div class="knum">29,537</div><div class="klbl">المساحة الكلية كم&#178;</div><div class="ksub">3% من مساحة مصر</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#B8882A,#D4A43C)"></div><div class="knum">1.46%</div><div class="klbl">معدل الزيادة الطبيعية</div><div class="ksub">2024/2025</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#952820,#C43A2C)"></div><div class="knum">20%</div><div class="klbl">معدل البطالة</div><div class="ksub">قوة عمل 68,296 الف</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#1A6038,#208248)"></div><div class="knum">2%</div><div class="klbl">نسبة الامية</div><div class="ksub">2024/2025</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#3B2888,#5438B0)"></div><div class="knum">36,589</div><div class="klbl">فدان مزروع</div><div class="ksub">قمح - شعير - زيتون</div></div>
+<div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#0A8E7D,#10B8A2)"></div><div class="knum">121,261</div><div class="klbl">اجمالي السكان</div><div class="ksub">تقدير 1/7/2025</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#1358A8,#1D7FD8)"></div><div class="knum">29,537</div><div class="klbl">المساحة الكلية كم&#178;</div><div class="ksub">3% من مساحة مصر</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#B8882A,#D4A43C)"></div><div class="knum">1.46%</div><div class="klbl">معدل الزيادة الطبيعية</div><div class="ksub">2024/2025</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#952820,#C43A2C)"></div><div class="knum">20%</div><div class="klbl">نسبة
+ البطالة</div><div class="ksub">قوة عمل 68,296 الف</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#1A6038,#208248)"></div><div class="knum">2%</div><div class="klbl">نسبة الامية</div><div class="ksub">2024/2025</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#3B2888,#5438B0)"></div><div class="knum">36,589</div><div class="klbl">فدان مزروع</div><div class="ksub">قمح - شعير - زيتون</div></div>
 </div>
 
 <div class="sl">بيانات السكان والتقسيم الاداري</div>
@@ -287,7 +330,8 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
     <div class="gt"></div>
     <div class="ct"><span class="cdot" style="background:var(--teal2)"></span>بيانات السكان 2025</div>
     <div class="stbl">
-<div class="sr"><span class="sk">اجمالي السكان (1/7/2025)</span><span class="sv" style="color:var(--teal2)">121,261 نسمة</span></div><div class="sr"><span class="sk">نسبة سكان الحضر</span><span class="sv">56.47%</span></div><div class="sr"><span class="sk">نسبة سكان الريف</span><span class="sv">43.53%</span></div><div class="sr"><span class="sk">نسبة من اجمالي سكان مصر</span><span class="sv">0.11%</span></div><div class="sr"><span class="sk">معدل الزيادة الطبيعية</span><span class="sv">1.46%</span></div><div class="sr"><span class="sk">قوة العمل الاجمالية</span><span class="sv">68,296 الف</span></div><div class="sr"><span class="sk">عدد المشتغلين</span><span class="sv" style="color:var(--grn2)">55,120 الف</span></div><div class="sr"><span class="sk">عدد المتعطلين</span><span class="sv" style="color:var(--red2)">1,867 الف</span></div><div class="sr"><span class="sk">معدل البطالة</span><span class="sv" style="color:var(--red2)">20%</span></div>
+<div class="sr"><span class="sk">اجمالي السكان (1/7/2025)</span><span class="sv" style="color:var(--teal2)">121,261 نسمة</span></div><div class="sr"><span class="sk">نسبة سكان الحضر</span><span class="sv">56.47%</span></div><div class="sr"><span class="sk">نسبة سكان الريف</span><span class="sv">43.53%</span></div><div class="sr"><span class="sk">نسبة من اجمالي سكان مصر</span><span class="sv">0.11%</span></div><div class="sr"><span class="sk">معدل الزيادة الطبيعية</span><span class="sv">1.46%</span></div><div class="sr"><span class="sk">إجمالي القوة العاملة</span><span class="sv">68,296 الف</span></div><div class="sr"><span class="sk">عدد القوة العاملة</span><span class="sv" style="color:var(--grn2)">55,120 الف</span></div><div class="sr"><span class="sk">عدد العاطلين عن العمل</span><span class="sv" style="color:var(--red2)">1,867 الف</span></div><div class="sr"><span class="sk">نسبة
+ البطالة</span><span class="sv" style="color:var(--red2)">20%</span></div>
     </div>
   </div>
   <div class="card">
@@ -309,19 +353,19 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
   <div class="card">
     <div class="ct"><span class="cdot" style="background:var(--teal2)"></span>توزيع السكان وفق الحالة التعليمية (تعداد 2017 - 10 سنوات فاكثر)</div>
     <div class="legend">
-<span class="litem"><span class="lsq" style="background:#10B8A2"></span>اقل من المتوسط (25,036)</span><span class="litem"><span class="lsq" style="background:#1D7FD8"></span>متوسط وفوق (15,627)</span><span class="litem"><span class="lsq" style="background:#D4A43C"></span>جامعي فاعلى (10,917)</span><span class="litem"><span class="lsq" style="background:#4A6E88"></span>امي (12,175)</span><span class="litem"><span class="lsq" style="background:#C43A2C"></span>يقرا ويكتب (9,566)</span>
+<span class="litem"><span class="lsq" style="background:#10B8A2"></span>اقل من المتوسط (25,036)</span><span class="litem"><span class="lsq" style="background:#1D7FD8"></span>متوسط وفوق (15,627)</span><span class="litem"><span class="lsq" style="background:#D4A43C"></span>جامعي (10,917)</span><span class="litem"><span class="lsq" style="background:#4A6E88"></span>امي (12,175)</span><span class="litem"><span class="lsq" style="background:#C43A2C"></span>يقرا ويكتب (9,566)</span>
     </div>
     <div class="cw" style="height:210px"><canvas id="ch-edu-dist" role="img" aria-label="توزيع التعليم">توزيع المستوى التعليمي.</canvas></div>
   </div>
   <div class="card">
     <div class="ct"><span class="cdot" style="background:var(--sky2)"></span>سوق العمل - القوى العاملة (الف)</div>
     <div class="legend">
-<span class="litem"><span class="lsq" style="background:#1D7FD8"></span>قوة العمل الاجمالية</span><span class="litem"><span class="lsq" style="background:#208248"></span>المشتغلون</span><span class="litem"><span class="lsq" style="background:#C43A2C"></span>المتعطلون</span>
+<span class="litem"><span class="lsq" style="background:#1D7FD8"></span>إجمالي القوة العاملة</span><span class="litem"><span class="lsq" style="background:#208248"></span>القوة العاملة</span><span class="litem"><span class="lsq" style="background:#C43A2C"></span>العاطلين عن العمل</span>
     </div>
     <div class="cw" style="height:170px"><canvas id="ch-labor" role="img" aria-label="سوق العمل">بيانات سوق العمل.</canvas></div>
     <div class="dv"></div>
     <div class="hlg">
-<div class="hlb ok"><div class="hlv">56.47%</div><div class="hll">سكان الحضر</div></div><div class="hlb warn"><div class="hlv">20%</div><div class="hll">معدل البطالة</div></div><div class="hlb info"><div class="hlv">1.46%</div><div class="hll">الزيادة الطبيعية</div></div>
+<div class="hlb ok"><div class="hlv">56.47%</div><div class="hll">سكان الحضر</div></div><div class="hlb warn"><div class="hlv">20%</div><div class="hll">نسبة البطالة</div></div><div class="hlb info"><div class="hlv">1.46%</div><div class="hll">الزيادة الطبيعية</div></div>
     </div>
   </div>
 </div>
@@ -377,7 +421,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
 
 <div class="sl">مؤشرات رئيسية</div>
 <div class="kgrid">
-<div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#1A6038,#208248)"></div><div class="knum">385</div><div class="klbl">مدارس عامة</div><div class="ksub">1,939 فصل</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#0A8E7D,#10B8A2)"></div><div class="knum">46,869</div><div class="klbl">تلاميذ (عام)</div><div class="ksub">47% اناث</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#1358A8,#1D7FD8)"></div><div class="knum">133</div><div class="klbl">معهد ازهري</div><div class="ksub">479 فصل</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#B8882A,#D4A43C)"></div><div class="knum">7,291</div><div class="klbl">تلاميذ ازهري</div><div class="ksub">48% اناث</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#3B2888,#5438B0)"></div><div class="knum">4,229</div><div class="klbl">مدرسون (عام)</div><div class="ksub">كثافة: 24</div></div><div class="kcard"><div class="kbar" style="background:linear-gradient(90deg,#9A4E08,#C86810)"></div><div class="knum">2%</div><div class="klbl">نسبة الامية</div><div class="ksub">من اقل المحافظات</div></div>
+
 </div>
 
 <div class="sl">تفاصيل قطاعية</div>
@@ -682,11 +726,64 @@ function showPage(id) {
   var idx = PAGES.indexOf(id);
   if (idx >= 0) { btns[idx].className += ' active'; }
   window.scrollTo(0, 0);
+  animateCounters(id);
   if (!chartsDone[id]) { chartsDone[id] = true; drawCharts(id); }
 }
 
+// ── Animated Counter ──
+function animateCounters(pageId) {
+  var el = document.getElementById('p-' + pageId);
+  if (!el) return;
+  var nums = el.querySelectorAll('.knum[data-target]');
+  for (var i = 0; i < nums.length; i++) {
+    (function(span) {
+      var target = parseFloat(span.getAttribute('data-target'));
+      var isFloat = span.getAttribute('data-target').indexOf('.') !== -1;
+      var isPercent = span.getAttribute('data-target').indexOf('%') !== -1;
+      var suffix = span.getAttribute('data-suffix') || '';
+      var duration = 1000;
+      var start = null;
+      span.classList.add('counted');
+      function step(ts) {
+        if (!start) start = ts;
+        var progress = Math.min((ts - start) / duration, 1);
+        var ease = 1 - Math.pow(1 - progress, 3);
+        var val = target * ease;
+        if (isFloat) {
+          span.textContent = val.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',') + suffix;
+        } else {
+          span.textContent = Math.round(val).toLocaleString() + suffix;
+        }
+        if (progress < 1) { requestAnimationFrame(step); }
+        else { span.textContent = span.getAttribute('data-display'); }
+      }
+      requestAnimationFrame(step);
+    })(nums[i]);
+  }
+}
+
+// ── Expand/Collapse cards ──
+function initExpandable() {
+  var cards = document.querySelectorAll('.card.expandable');
+  for (var i = 0; i < cards.length; i++) {
+    (function(card) {
+      var ct = card.querySelector('.ct');
+      var body = card.querySelector('.card-body');
+      if (ct && body) {
+        ct.addEventListener('click', function() {
+          if (card.classList.contains('collapsed')) {
+            card.classList.remove('collapsed');
+          } else {
+            card.classList.add('collapsed');
+          }
+        });
+      }
+    })(cards[i]);
+  }
+}
+
 // ── Charts ──
-var CC = '#0C1E2E'; // card background for border
+var CC = '#0E2638';
 
 function makeDonut(canvasId, lbls, vals, colors) {
   var el = document.getElementById(canvasId);
@@ -720,15 +817,15 @@ function makeBar(canvasId, lbls, vals, colors) {
     type: 'bar',
     data: {
       labels: lbls,
-      datasets: [{ data: vals, backgroundColor: colors, borderRadius: 4, borderSkipped: false }]
+      datasets: [{ data: vals, backgroundColor: colors, borderRadius: 5, borderSkipped: false }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: {
-        x: { ticks: { color: '#7A9EC0', font: { size: 11 } }, grid: { display: false }, border: { color: 'rgba(255,255,255,.08)' } },
-        y: { ticks: { color: '#7A9EC0', font: { size: 10 } }, grid: { color: 'rgba(255,255,255,.06)' }, border: { color: 'transparent' } }
+        x: { ticks: { color: '#8AB0CC', font: { size: 12 } }, grid: { display: false }, border: { color: 'rgba(255,255,255,.08)' } },
+        y: { ticks: { color: '#8AB0CC', font: { size: 11 } }, grid: { color: 'rgba(255,255,255,.06)' }, border: { color: 'transparent' } }
       }
     }
   });
@@ -749,8 +846,8 @@ function makeHBar(canvasId, lbls, vals, colors) {
       maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: {
-        x: { ticks: { color: '#7A9EC0', font: { size: 10 } }, grid: { color: 'rgba(255,255,255,.06)' }, border: { color: 'transparent' } },
-        y: { ticks: { color: '#7A9EC0', font: { size: 11 } }, grid: { display: false }, border: { color: 'rgba(255,255,255,.08)' } }
+        x: { ticks: { color: '#8AB0CC', font: { size: 11 } }, grid: { color: 'rgba(255,255,255,.06)' }, border: { color: 'transparent' } },
+        y: { ticks: { color: '#8AB0CC', font: { size: 12 } }, grid: { display: false }, border: { color: 'rgba(255,255,255,.08)' } }
       }
     }
   });
@@ -759,69 +856,122 @@ function makeHBar(canvasId, lbls, vals, colors) {
 function drawCharts(id) {
   if (id === 'home') {
     makeDonut('ch-edu-dist',
-      ['اقل من متوسط', 'متوسط وفوق', 'جامعي', 'امي', 'يقرأ ويكتب'],
-      [25036, 15627, 10917, 12175, 9566],
-      ['#10B8A2', '#1D7FD8', '#D4A43C', '#4A6E88', '#C43A2C']
+      ['اقل من المتوسط','متوسط وفوق','جامعي','امي','يقرا ويكتب'],
+      [25036,15627,10917,12175,9566],
+      ['#12B8A0','#2088D8','#D4A030','#4A6E88','#BC3C28']
     );
     makeBar('ch-labor',
-      ['قوة العمل', 'مشتغلون', 'متعطلون'],
-      [68.3, 55.1, 1.9],
-      ['#1D7FD8', '#208248', '#C43A2C']
+      ['إجمالي القوة العاملة','القوة العاملة','العاطلين عن العمل'],
+      [68.3,55.1,1.9],
+      ['#2088D8','#1E8045','#BC3C28']
     );
   }
   if (id === 'health') {
     makeDonut('ch-health-staff',
-      ['اطباء', 'ممرضون', 'اسعاف'],
-      [1998, 1795, 67],
-      ['#C43A2C', '#1D7FD8', '#D4A43C']
+      ['اطباء','ممرضون','اسعاف'],
+      [1998,1795,67],
+      ['#BC3C28','#2088D8','#D4A030']
     );
     makeBar('ch-health-fac',
-      ['مستشفى حكومي', 'مستشفى خاص', 'وحدة صحية', 'مركز صحي', 'مكتب صحة'],
-      [8, 6, 18, 9, 18],
-      ['#C43A2C', '#E86050', '#1D7FD8', '#10B8A2', '#D4A43C']
+      ['مستشفى حكومي','مستشفى خاص','وحدة صحية','مركز صحي','مكتب صحة'],
+      [8,6,18,9,18],
+      ['#BC3C28','#E06048','#2088D8','#12B8A0','#D4A030']
     );
   }
   if (id === 'edu') {
     makeBar('ch-edu-schools',
-      ['مدارس عامة', 'معاهد ازهرية', 'كليات ومعاهد عليا'],
-      [385, 133, 4],
-      ['#208248', '#10B8A2', '#D4A43C']
+      ['مدارس عامة','معاهد ازهرية','كليات ومعاهد عليا'],
+      [385,133,4],
+      ['#1E8045','#12B8A0','#D4A030']
     );
     makeDonut('ch-edu-students',
-      ['تلاميذ عام', 'تلاميذ ازهري', 'طلاب عالي'],
-      [46869, 7291, 2294],
-      ['#208248', '#1D7FD8', '#D4A43C']
+      ['تلاميذ عام','تلاميذ ازهري','طلاب عالي'],
+      [46869,7291,2294],
+      ['#1E8045','#2088D8','#D4A030']
     );
   }
   if (id === 'svc') {
     makeHBar('ch-svc-cover',
-      ['كهرباء حضر', 'كهرباء ريف', 'صرف حضر', 'صرف ريف', 'مياه حضر', 'مياه ريف'],
-      [99.4, 91.0, 96.8, 54.5, 90.4, 34.6],
-      ['#1D7FD8', '#5AB0F0', '#10B8A2', '#3DD5C2', '#D4A43C', '#F0C060']
+      ['كهرباء حضر','كهرباء ريف','صرف حضر','صرف ريف','مياه حضر','مياه ريف'],
+      [99.4,91.0,96.8,54.5,90.4,34.6],
+      ['#2088D8','#60B8F8','#12B8A0','#40D4C0','#D4A030','#EEC050']
     );
   }
   if (id === 'econ') {
     makeBar('ch-tourism',
-      ['فنادق', 'غرف (الف)', 'اسرة (الف)'],
-      [244, 63.1, 132.8],
-      ['#D4A43C', '#10B8A2', '#1D7FD8']
+      ['فنادق','غرف (الف)','اسرة (الف)'],
+      [244,63.1,132.8],
+      ['#D4A030','#12B8A0','#2088D8']
     );
     makeDonut('ch-econ-sectors',
-      ['سياحة', 'زراعة', 'صيد', 'صناعة'],
-      [244, 36589, 135, 17],
-      ['#D4A43C', '#208248', '#1D7FD8', '#C43A2C']
+      ['سياحة','زراعة','صيد','صناعة'],
+      [244,36589,135,17],
+      ['#D4A030','#1E8045','#2088D8','#BC3C28']
     );
   }
 }
 
-// init home on load
 window.onload = function() {
   Chart.defaults.font.family = "'Cairo', sans-serif";
-  Chart.defaults.color = '#7A9EC0';
+  Chart.defaults.color = '#8AB0CC';
+
+  // ── Add data-target to all KPI numbers for counter animation ──
+  var knums = document.querySelectorAll('.knum');
+  for (var i = 0; i < knums.length; i++) {
+    var txt = knums[i].textContent.trim();
+    // Store display text
+    knums[i].setAttribute('data-display', txt);
+    // Extract numeric value
+    var num = txt.replace(/,/g,'').replace(/%/,'').replace(/[^0-9.]/g,'');
+    if (num && !isNaN(parseFloat(num))) {
+      knums[i].setAttribute('data-target', num);
+      var suffix = '';
+      if (txt.indexOf('%') !== -1) suffix = '%';
+      knums[i].setAttribute('data-suffix', suffix);
+    }
+  }
+
+  // ── Make drill-down cards expandable ──
+  var pages = ['p-health','p-edu','p-svc','p-econ','p-transport',
+               'p-social','p-deprive','p-dev','p-projects','p-invest','p-concerns'];
+  for (var p = 0; p < pages.length; p++) {
+    var pg = document.getElementById(pages[p]);
+    if (!pg) continue;
+    var cards = pg.querySelectorAll('.card');
+    for (var c = 0; c < cards.length; c++) {
+      var card = cards[c];
+      var body = card.querySelector('.stbl, .pjlist, .clist, .ipts, .plist, .hlg');
+      if (body) {
+        card.classList.add('expandable');
+        // Wrap body in .card-body div
+        var wrapper = document.createElement('div');
+        wrapper.className = 'card-body';
+        body.parentNode.insertBefore(wrapper, body);
+        wrapper.appendChild(body);
+      }
+    }
+  }
+  initExpandable();
+
+  // ── Add tooltip to all .sr rows ──
+  var srows = document.querySelectorAll('.sr');
+  for (var s = 0; s < srows.length; s++) {
+    var row = srows[s];
+    var key = row.querySelector('.sk');
+    var val = row.querySelector('.sv');
+    if (key && val) {
+      var tip = document.createElement('span');
+      tip.className = 'tip';
+      tip.textContent = key.textContent.trim() + ': ' + val.textContent.trim();
+      row.appendChild(tip);
+    }
+  }
+
+  // ── Init home page ──
   chartsDone['home'] = true;
   drawCharts('home');
+  animateCounters('home');
 };
-
 </script>
 </body>
 </html>
